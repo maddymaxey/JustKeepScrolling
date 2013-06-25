@@ -1,0 +1,263 @@
+/* 
+Project Name: Ecard.ly
+Client: General Assembly 
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/*Text*/
+
+h1  {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 20px ; 
+    text-align:right; 
+    margin-left: 10px;
+    font-weight:300;
+
+    
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 50px ; 
+    margin:30px 30px;
+    float:right; 
+    font-weight:300;
+    
+}
+
+h2.pink
+{  font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 50px ; 
+    margin:30px 30px;
+    float:right; 
+    font-weight:300;
+    color:#ff564f
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 18px ; 
+    margin-top:200px;
+    margin-right:0px;
+    float:right; 
+    font-weight:500;
+    
+}
+
+
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 18px ; 
+    margin:0px 40px;
+    text-align:left; 
+    font-weight:300;
+
+    
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 20px ; 
+    width:600px;
+    margin:0px auto;
+    text-align:left;
+    font-weight:300; }
+    
+h6 {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 50px ; 
+    margin:0px 50px; 
+    font-weight:300;
+    
+} 
+
+
+p {  
+    font-family: 'Oswald', sans-serif;
+    color:#ff564f;
+    font-size:15px;
+    margin:0px, auto;
+    text-align:center;
+
+}
+
+
+
+hr {
+    width:500px;
+    height:2px;
+    border-color:#ff564f;
+}
+
+
+/* body */
+
+body{
+   margin:0px;
+}
+
+li 
+{
+ display:inline;
+ padding:10px;
+}
+
+/* ID */
+
+.mah_face
+{width:50px;
+    margin: 0px 50px;
+}
+
+.logo
+{width:50px;
+    margin: 0px auto;
+}
+
+.title
+ {
+ color:black;
+ font-family: 'Oswald', sans-serif;
+ font-weight:700;
+ font-size:20px;
+ margin:0px 90px;
+}
+
+.icon
+{margin: 0px auto;}
+
+/* navigation */
+
+#nav
+ {
+ width:300px;
+ height:100%;
+ box-shadow: 0px 1px 50px #5E5E5E;
+ position:fixed;
+ float:left;
+ top:0px;
+ color:black;
+}
+
+#nav a
+{
+ font-family: 'Oswald', sans-serif;
+ text-decoration:none;
+ color:black;
+ font-weight:500;
+} 
+
+#navigation a:hover 
+{
+ color:black;
+}
+
+#nav a:hover 
+{
+ color:black;
+ font-weight:500;
+}
+
+#navigation
+{
+    margin-top:20px;
+}
+
+
+/*PAGES */
+#page1
+{   height:1000px;
+    background-color:black;
+    margin-left:300px;
+}
+
+#page2
+{   height:1000px;
+    background-color:black;
+    margin-left:300px;
+}
+
+#page3
+{   height:1000px;
+    background-color:black;
+    margin-left:300px;
+}
+
+#page4
+{   height:1000px;
+    background-color:black;
+    margin-left:300px;
+}
+
+/*REMAINING CLASSES*/
+
+#mainimage
+{   
+    height:400px;
+    margin:200px 0px;
+    float:left;
+}
+
+#body 
+{
+ width:100%;
+ margin:0px ;
+ margin-top:0px;
+
+}
+
+#newproject
+{margin-top:20px ;
+float:right;}
+
+/*PAGE 2*/
+#aboutsection
+{
+    background-color:white;
+    margin:0px 50px;
+    height:900px;
+    width:100%;
+}
+
+/*PAGE 4*/
+.press
+{
+    margin: 0px auto;
+    width:700px;
+}
+
+#map
+{
+    margin:0px 75px;
+}
+
